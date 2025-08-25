@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <h1>Tiny Counter</h1>
+            <label class="toggle">
+                <input id="themeToggle" type="checkbox" aria-label="Toggle dark mode">
+                <span class="slider"></span>
+                <span class="toggle-label">Dark</span>
+            </label>
+        </header>
+
+        <section class="card" aria-live="polite">
+            <div class="count" id="count">0</div>
+            <div class="buttons">
+                <button id="decrement" class="btn" aria-label="Decrement">−</button>
+                <button id="increment" class="btn primary" aria-label="Increment">+</button>
+            </div>
+            <button id="reset" class="btn ghost" aria-label="Reset">Reset</button>
+        </section>
+
+        <footer class="footer">
+            <p>Made by danish dhanjal with ❤️ and ☕️</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+    <noscript>Your browser has JavaScript disabled. Enable it to use the counter.</noscript>
+    
+</body>
+</html>
+
+
